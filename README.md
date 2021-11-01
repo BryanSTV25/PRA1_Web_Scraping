@@ -1,5 +1,10 @@
 # PRA1_Publicaciones_Cientf
 
+**Miembros del equipo**
+
+  - Bryan Steven Cortez Chichande
+  - César Alexander Guzmán Vásquez
+
 **Descripción**
 
 Este proyecto extrae los datos bibliográficos de publicaciones científicas de las áreas anexas a la ciencia de datos. Para ello hace uso de la páginas <a href="semanticscholar.org">Semantic Schocal</a>, <a href="dialnet.unirioja.es">Dialnet</a> y <a href="scholar.google.com">Google Scholar</a>.
@@ -93,10 +98,7 @@ Para ejecutarlo, seguir los siguientes pasos:
 
 En la hoja google_scholar_dataset se encuentran los datos en un formato de tabla. Mientras que en la hoja Resumen Datos, se encuentra un breve resumen visual con gráfico y con tabla de los datos según categoría individual y agrupada.
 
-**Miembros del equipo**
-
-  - Bryan Steven Cortez Chichande
-  - César Alexander Guzmán Vásquez
+  
   
 **Ficheros del código fuente**
 
@@ -113,6 +115,7 @@ En la hoja google_scholar_dataset se encuentran los datos en un formato de tabla
   - pra1_Google_Scholar.py: Programa principal de ejecución 
   - scraper.py: Archivo con la clase y funciones necesarias para hacer el web scraping
   - google_scholar_dataset.csv: Archivo resultante con el dataset del programa
+
 
 **Recursos**
 Rodó, D. M. (2020). El lenguaje Pyhton. Barcelona.
