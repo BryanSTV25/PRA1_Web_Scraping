@@ -1,18 +1,46 @@
 # PRA1_Publicaciones_Cientf
 
-**Miembros del equipo**
+## Miembros del equipo
 
   - Bryan Steven Cortez Chichande
   - César Alexander Guzmán Vásquez
 
-**Descripción**
+## Directorios del Repositorio
+
+### Datasets CSV
+  - Contiene los 3 archivos csv resultantes de la ejecución de cada programa.
+
+### Datasets Excel
+  - Contiene los 3 archivos excel resultantes del procesamiento de los archivos csv en excel.
+
+### Documento 
+  - Contiene el archivo PDF con las respuestas de la práctica, incluyendo los enlaces a Zenodo y al video.
+
+### Programa 1
+Contiene los archivos del primer programa, realizado en Jupyter Notebooks.
+  - **pra1_Semantic_Scholar.ipynb:** Jupiter Notebook con las instrucciones del programa
+  - **robot.txt:** Archivo robot de la página Semantic Scholar
+  - **_dtpapers.csv:** Archivo resultante con el dataset del programa
+
+### Programa 2
+Contiene los archivos del segundo programa, realizado en Jupyter Notebooks.
+  - **pra1_Dialnet.ipynb:** Jupiter Notebook con las instrucciones del programa
+  - **_dtpapers.csv:** Archivo resultante con el dataset del programa
+
+### Programa 3
+Contiene los archivos del tercer programa, realizado en Spyder.
+  - **pra1_Google_Scholar.py:** Programa principal de ejecución 
+  - **scraper.py:** Archivo con la clase y funciones necesarias para hacer el web scraping
+  - **google_scholar_dataset.csv:** Archivo resultante con el dataset del programa
+
+## Descripción
 
 Este proyecto extrae los datos bibliográficos de publicaciones científicas de las áreas anexas a la ciencia de datos. Para ello hace uso de la páginas <a href="semanticscholar.org">Semantic Schocal</a>, <a href="dialnet.unirioja.es">Dialnet</a> y <a href="scholar.google.com">Google Scholar</a>.
 
 
-**Instrucciones**
+## Instrucciones
 
-**- Programa 1**
+### Programa 1
 
 Para el programa 1 se hace uso del lenguaje Pyhton, por medio de Jupiter Notebooks, por lo que será necesario tener Jupiter Notebooks para probarlo.
 
@@ -55,7 +83,7 @@ Para ejecutarlo, seguir los siguientes pasos:
   ![image](https://user-images.githubusercontent.com/27928138/138794868-9fb2ac8b-1426-4a7a-8c48-fcf8717eb752.png)
 
 
-**- Programa 2**
+### Programa 2
 
 Para el programa 2 se hace uso del lenguaje Pyhton, por medio de Jupiter Notebooks, por lo que será necesario tener Jupiter Notebooks para probarlo.
 
@@ -70,7 +98,7 @@ Para efectos prácticos, en este caso, el archivo resultante en formato excel se
 ![image](https://user-images.githubusercontent.com/27928138/139695962-08c10f14-726a-40e4-b18b-35138d239aa2.png)
 
 
-**- Programa 3**
+### Programa 3
 
 Para el programa 3 se hace uso del lenguaje Pyhton, usando Spyder como IDE, por lo que se recomienda tener Spyder para probarlo.
 
@@ -98,25 +126,7 @@ Para ejecutarlo, seguir los siguientes pasos:
 
 En la hoja google_scholar_dataset se encuentran los datos en un formato de tabla. Mientras que en la hoja Resumen Datos, se encuentra un breve resumen visual con gráfico y con tabla de los datos según categoría individual y agrupada.
 
-  
-  
-**Ficheros del código fuente**
 
-**Programa 1**
-  - pra1_Semantic_Scholar.ipynb: Jupiter Notebook con las instrucciones del programa
-  - robot.txt: Archivo robot de la página Semantic Scholar
-  - _dtpapers.csv: Archivo resultante con el dataset del programa
-
-**Programa 2**
-  - pra1_Dialnet.ipynb: Jupiter Notebook con las instrucciones del programa
-  - _dtpapers.csv: Archivo resultante con el dataset del programa
-
-**Programa 3**
-  - pra1_Google_Scholar.py: Programa principal de ejecución 
-  - scraper.py: Archivo con la clase y funciones necesarias para hacer el web scraping
-  - google_scholar_dataset.csv: Archivo resultante con el dataset del programa
-
-
-**Recursos**
-Rodó, D. M. (2020). El lenguaje Pyhton. Barcelona.
-Subirats, L. M., & Calvo, M. G. (2019). Web scraping. In L. M. Subirats, & M. G. Calvo. Barcelona: 2019.
+## Recursos
+  - Rodó, D. M. (2020). El lenguaje Pyhton. Barcelona.
+  - Subirats, L. M., & Calvo, M. G. (2019). Web scraping. In L. M. Subirats, & M. G. Calvo. Barcelona: 2019.
